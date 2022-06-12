@@ -1,3 +1,57 @@
-h1 {
-  color: red;
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navbar-link-container {
+  display: block;
+  text-decoration: none;
+}
+
+.navbar-link {
+  padding: 12px;
+  text-align: center;
+}
+
+.container-item {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.container-item-title {
+  margin: auto;
+}
+
+.container-item-img {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  margin-top: 16px;
+}
+
+.container-item-description {
+  margin: auto;
+  margin-top: 16px;
+}
+
+.description{
+
+}
+
+.description-text{
+  padding: 24px;
+  text-align: center;
 }

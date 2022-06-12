@@ -8,19 +8,39 @@
     <link href="./index.css" rel="stylesheet" />
   </head>
   <body>
-    <nav>
-      <ul>
-        <li>
-          <a href="index.html">Ana Sayfa</a>
+    <nav class="navbar">
+      <ul class="navbar-nav">
+        <li class="navbar-link-container">
+          <a class="navbar-link" href="index.html">Ana Sayfa</a>
         </li>
-        <li>
-          <a href="products.html">Ürünler</a>
+        <li class="navbar-link-container">
+          <a class="navbar-link" href="products.html">Ürünler</a>
         </li>
-        <li>
-          <a href="about.html">Hakkında</a>
+        <li class="navbar-link-container">
+          <a class="navbar-link" href="about.html">Hakkında</a>
         </li>
       </ul>
     </nav>
-    <h1>products</h1>
+    <ul class="container">
+      <div class="container-item">
+        <h2 class="container-item-title">Kitap</h2>
+        <img src="./public/book.png" alt="Kitap" class="container-item-img" />
+        <p class="container-item-description">Güzel bir kitap.</p>
+      </div>
+      <div class="container-item">
+        <h2 class="container-item-title">Kalem</h2>
+        <img src="./public/pencil.jpg" alt="Kalem" class="container-item-img" />
+        <p class="container-item-description">Ortalama bir kurşun kalem.</p>
+      </div>
+      <div class="container-item">
+        <h2 class="container-item-title">Defter</h2>
+        <img
+          src="./public/notebook.jpg"
+          alt="Defter"
+          class="container-item-img"
+        />
+        <p class="container-item-description">Pahalı bir defter.</p>
+      </div>
+    </ul>
   </body>
 </html>
